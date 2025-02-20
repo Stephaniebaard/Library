@@ -1,6 +1,7 @@
 
 import "./App.scss";
 import AuthorList from "./widget/AuthorList/AuthorList";
+import BookBox from "./widget/BookBox/BookBox";
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <h1>Library📚</h1>
       <AuthorList/>
+      <BookBox/>
     </>
   );
 }
