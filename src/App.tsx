@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1>Library</h1>
+      <h1>Library📚</h1>
     </>
   );
 }
