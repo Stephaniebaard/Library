@@ -61,7 +61,7 @@ const BookForm: React.FC<{ onSubmit: (book: Book) => void }> = ({ onSubmit }) =>
         />
       </div>
       <div>
-        <label htmlFor="author">Författare:</label>
+        <label htmlFor="author">Author:</label>
         <input
           type="text"
           id="author"
@@ -82,7 +82,7 @@ const BookForm: React.FC<{ onSubmit: (book: Book) => void }> = ({ onSubmit }) =>
         />
       </div>
       <div>
-        <label htmlFor="description">Beskrivning:</label>
+        <label htmlFor="description">Description:</label>
         <input
           type="text"
           id="description"
@@ -92,7 +92,7 @@ const BookForm: React.FC<{ onSubmit: (book: Book) => void }> = ({ onSubmit }) =>
         />
       </div>
       <div>
-        <label htmlFor="coverImage">Omslagsbild:</label>
+        <label htmlFor="coverImage">Cover:</label>
         <input
           type="file"
           id="coverImage"
@@ -101,7 +101,7 @@ const BookForm: React.FC<{ onSubmit: (book: Book) => void }> = ({ onSubmit }) =>
         />
         {book.coverImage && <img src={book.coverImage} alt="Cover" width="100" />}
       </div>
-      <button type="submit">Lägg till bok</button>
+      <button type="submit">Add Book</button>
     </form>
   );
 };

@@ -19,7 +19,7 @@ const BookBox: React.FC = () => {
 
   return (
     <div>
-      <h1>Min Boklista</h1>
+      <h1>Books📖</h1>
       <BookForm onSubmit={handleBookSubmit} /> 
       <h3>Book List</h3>
       <ul>
