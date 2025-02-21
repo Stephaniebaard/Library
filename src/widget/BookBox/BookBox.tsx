@@ -19,9 +19,9 @@ const BookBox: React.FC = () => {
 
   return (
     <div>
-      <h1>Books📖</h1>
+      <h2>Books📖</h2>
       <BookForm onSubmit={handleBookSubmit} /> 
-      <h3>Book List</h3>
+      <h2>Book List</h2>
       <ul>
         {books.map((book, index) => (
           <li key={index}>
