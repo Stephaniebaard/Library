@@ -1,0 +1,10 @@
+
+.AuthorListDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+.AuthorList{
+  display: flex;
+  flex-wrap: wrap;
+}

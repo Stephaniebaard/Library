@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import BookForm from "./BookFom/BookForm"; 
+import './BookBox.scss';
 
 interface Book {
   title: string;
@@ -18,7 +19,7 @@ const BookBox: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className='BookBoxDiv'>
       <h2>Books📖</h2>
       <BookForm onSubmit={handleBookSubmit} /> 
       <h2>Book List</h2>

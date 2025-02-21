@@ -22,9 +22,9 @@ export default function AuthorList() {
   };
 
   return (
-    <div className='AuthorList'>
+    <div className='AuthorListDiv'>
       <h2>Authors</h2>
-      <ul>
+      <ul className='AthorList'>
         {Author.map((author, index) => (
           <AuthorLiItem
             key={`${index}-${author}`}
